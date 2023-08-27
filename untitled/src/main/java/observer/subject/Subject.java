@@ -7,8 +7,6 @@ import observer.observer.Observer;
  */
 public interface Subject extends Observer {
 
-
-
     /**
      * 注册为观察者
      * 需要一个观察者作为变量，该观察者是用来注册的。
