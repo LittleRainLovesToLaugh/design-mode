@@ -21,6 +21,7 @@ public class WeatherData implements Subject {
     private float pressure;
 
     public WeatherData() {
+        //        我们加上一个ArrayList来纪录观察者，此ArrayList是在构造器中建立的。
         observers = new ArrayList<>();
     }
 
@@ -29,11 +30,17 @@ public class WeatherData implements Subject {
 
     }
 
+    /**
+     * 当注册观察者时，我们只要把它加到ArrayList的后面即可。
+     */
     @Override
     public void registerObserver(Observer o) {
         observers.add(o);
     }
 
+    /**
+     *当观察者想取消注册，我们把它从ArrayList中删除即可。
+     */
     @Override
     public void removeObserver(Observer o) {
         int i = observers.indexOf(o);
@@ -42,6 +49,10 @@ public class WeatherData implements Subject {
         }
     }
 
+    /**
+     *
+     我们把状态告诉每一个观察者。因为 观察者都实现了update()，所以我们知道如何通知它们
+     */
     @Override
     public void notifyObservers() {
         for (Observer value : observers) {
