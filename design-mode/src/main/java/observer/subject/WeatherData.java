@@ -4,6 +4,10 @@ import observer.observer.Observer;
 
 import java.util.ArrayList;
 
+/**
+ *
+ * @author 27662
+ */
 public class WeatherData implements Subject {
 
     private ArrayList<Observer> observers;
@@ -23,11 +27,6 @@ public class WeatherData implements Subject {
     public WeatherData() {
         //        我们加上一个ArrayList来纪录观察者，此ArrayList是在构造器中建立的。
         observers = new ArrayList<>();
-    }
-
-    @Override
-    public void update(float temp, float humidity, float pressure) {
-
     }
 
     /**
@@ -91,5 +90,9 @@ public class WeatherData implements Subject {
 
     public float getPressure() {
         return pressure;
+    }
+
+    @Override
+    public void update(float temp, float humidity, float pressure) {
     }
 }
