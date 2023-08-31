@@ -5,6 +5,7 @@ import observer.observer.Observer;
 import java.util.ArrayList;
 
 /**
+ * 观察者模式利用“组合”将许多观察者组合进主题中。对象之间的这种关系不是通过继承产生的，而是在运行时利用组合的方式而产生的。
  *
  * @author 27662
  */
@@ -38,7 +39,7 @@ public class WeatherData implements Subject {
     }
 
     /**
-     *当观察者想取消注册，我们把它从ArrayList中删除即可。
+     * 当观察者想取消注册，我们把它从ArrayList中删除即可。
      */
     @Override
     public void removeObserver(Observer o) {
@@ -49,8 +50,7 @@ public class WeatherData implements Subject {
     }
 
     /**
-     *
-     我们把状态告诉每一个观察者。因为 观察者都实现了update()，所以我们知道如何通知它们
+     * 我们把状态告诉每一个观察者。因为 观察者都实现了update()，所以我们知道如何通知它们
      */
     @Override
     public void notifyObservers() {

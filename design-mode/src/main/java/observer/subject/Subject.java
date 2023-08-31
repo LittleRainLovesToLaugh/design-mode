@@ -3,7 +3,9 @@ package observer.subject;
 import observer.observer.Observer;
 
 /**
- * 主题接口
+ * 主题与观察者都使用接口：观察者利用主题的接口
+ * 向主题注册，而主题利用观察者接口通知观察者。
+ * 这样可以让两者之间运作正常，又同时具有松耦合的优点。
  */
 public interface Subject extends Observer {
 
