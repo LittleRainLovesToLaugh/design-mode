@@ -6,18 +6,13 @@ package decorator;
  * Description
  * @Version: v1.0
  */
-public class CondimentDecorator extends Beverage{
-    @Override
-    void description() {
-
-    }
+public abstract class CondimentDecorator extends Beverage{
 
     @Override
     void getDescription() {
-        System.out.println("");
+        // 如何实现调料的getDescription()方法
+        System.out.println("统一调料描述");
     }
 
-    @Override
-    void cost() {
-    }
+
 }

@@ -8,7 +8,7 @@ package decorator;
  */
 public abstract class Beverage {
 
-    abstract void description();
+    // description
 
     abstract void getDescription();
 
