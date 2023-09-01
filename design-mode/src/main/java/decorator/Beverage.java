@@ -1,17 +1,19 @@
 package decorator;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年09月01日 13:58:00
- * Description
+ * Description 饮料  (装饰器模式：抽象组件)
  * @Version: v1.0
  */
 public abstract class Beverage {
 
-    // description
+    String description = "未知的饮料 Unknown Beverage";
 
-    abstract void getDescription();
+    public String getDescription(){
+        return description;
+    }
 
-    abstract void cost();
+   public abstract double cost();
 
 }

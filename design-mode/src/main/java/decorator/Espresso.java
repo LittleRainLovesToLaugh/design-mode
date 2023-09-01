@@ -1,17 +1,26 @@
 package decorator;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年09月01日 14:49:00
- * Description
+ * Description 浓咖啡  (装饰器模式：具体组件)
  * @Version: v1.0
  */
-public abstract class Espresso extends Beverage {
+public class Espresso extends Beverage {
 
+    /**
+     * 为了要设置饮料的描述，我们写了一个构造器。description实例变量继承自Beverage。
+     */
+    public Espresso() {
+        description = "浓咖啡 Espresso";
+    }
 
+    /**
+     * 需要计算Espresso的价钱，现在不需要管调料的价钱，直接把Espresso的价格$1.99返回即可。
+     * @return $1.99
+     */
     @Override
-    public void cost() {
-        // 想想如何实现咖啡和调料的cost()方法
-        System.out.println("单杯咖啡价格 5元");
+    public double cost() {
+        return 1.99;
     }
 }

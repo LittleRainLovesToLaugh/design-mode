@@ -1,7 +1,7 @@
 package strategy.pattern.quack;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年08月26日 16:03:00
  * Description 呱呱叫
  * @Version: v1.0

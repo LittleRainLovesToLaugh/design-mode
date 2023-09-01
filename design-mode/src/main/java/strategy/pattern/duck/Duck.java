@@ -4,7 +4,7 @@ import strategy.pattern.fly.FlyBehavior;
 import strategy.pattern.quack.QuackBehavior;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年08月26日 14:07:00
  * Description 鸭子超类
  * @Version: v1.0

@@ -4,7 +4,7 @@ import strategy.pattern.fly.FlyNoWay;
 import strategy.pattern.quack.Quack;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年08月26日 16:53:00
  * Description
  * @Version: v1.0

@@ -6,7 +6,7 @@ import strategy.pattern.duck.ModelDuck;
 import strategy.pattern.fly.FlyRocketPowered;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年08月26日 16:36:00
  * Description
  * @Version: v1.0

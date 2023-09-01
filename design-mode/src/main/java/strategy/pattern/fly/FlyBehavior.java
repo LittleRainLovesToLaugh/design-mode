@@ -1,7 +1,7 @@
 package strategy.pattern.fly;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年08月26日 16:02:00
  * Description 所有飞行为
  * @Version: v1.0

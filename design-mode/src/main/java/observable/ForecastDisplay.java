@@ -6,7 +6,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * @author 谢迪
+ * @author 小雨
  * Date 2023年08月30日 18:07:00
  * Description
  * @Version: v1.0
