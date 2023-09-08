@@ -1,9 +1,14 @@
 package factory;
 
 import factory.cheese.Cheese;
+import factory.cheese.Mozzarella;
 import factory.clams.Clams;
+import factory.clams.FrozenClams;
 import factory.dough.Dough;
+import factory.dough.ThinCrusDough;
 import factory.pepperoni.Pepperoni;
+import factory.pepperoni.SlicedPepperoni;
+import factory.sauce.PlumTomatoSauce;
 import factory.sauce.Sauce;
 import factory.veggies.*;
 
@@ -13,36 +18,36 @@ import factory.veggies.*;
  * Description 芝加哥披萨店原料工厂类
  * @Version: v1.0
  */
-public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
 
     @Override
     public Dough createDough() {
-        return null;
+        return new ThinCrusDough();
     }
 
     @Override
     public Sauce createSauce() {
-        return null;
+        return new PlumTomatoSauce();
     }
 
     @Override
     public Cheese createCheese() {
-        return null;
+        return new Mozzarella();
     }
 
     @Override
     public Veggies[] createVeggies() {
-        return new Veggies[]{new EggPlant(), new Onion(), new Mushroom(), new RedPepper()};
+        return new Veggies[]{new EggPlant(), new Spinach(), new BlackOlives()};
     }
 
     @Override
     public Pepperoni createPepperoni() {
-        return null;
+        return new SlicedPepperoni();
     }
 
     @Override
     public Clams createClams() {
-        return null;
+        return new FrozenClams();
     }
 }
