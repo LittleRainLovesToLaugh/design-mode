@@ -3,7 +3,7 @@ package decorator;
 /**
  * @author 谢迪
  * Date 2023年09月06日 17:13:00
- * Description
+ * Description 装饰器模式演示
  * @Version: v1.0
  */
 public class StarburstCoffee {
