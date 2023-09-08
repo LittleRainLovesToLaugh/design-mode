@@ -1,4 +1,4 @@
-package factory;
+package factory.pizza;
 
 import factory.sauce.MarinaraSauce;
 import factory.cheese.Cheese;
