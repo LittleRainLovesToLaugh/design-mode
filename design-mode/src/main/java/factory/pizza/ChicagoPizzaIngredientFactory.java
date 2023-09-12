@@ -10,7 +10,10 @@ import factory.pepperoni.Pepperoni;
 import factory.pepperoni.SlicedPepperoni;
 import factory.sauce.PlumTomatoSauce;
 import factory.sauce.Sauce;
-import factory.veggies.*;
+import factory.veggies.BlackOlives;
+import factory.veggies.EggPlant;
+import factory.veggies.Spinach;
+import factory.veggies.Veggies;
 
 /**
  * @author 谢迪
@@ -47,7 +50,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     @Override
-    public Clams createClams() {
+    public Clams createClam() {
         return new FrozenClams();
     }
 }

@@ -48,9 +48,10 @@ public interface PizzaIngredientFactory {
 
     /**
      * 创建蛤蛎
+     *
      * @return 蛤蛎
      */
-    Clams createClams();
+    Clams createClam();
 
 
 }

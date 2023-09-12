@@ -1,6 +1,5 @@
 package factory.pizza;
 
-import factory.sauce.MarinaraSauce;
 import factory.cheese.Cheese;
 import factory.cheese.ReggianoCheese;
 import factory.clams.Clams;
@@ -9,12 +8,9 @@ import factory.dough.Dough;
 import factory.dough.ThinCrusDough;
 import factory.pepperoni.Pepperoni;
 import factory.pepperoni.SlicedPepperoni;
-import factory.veggies.Mushroom;
-import factory.veggies.Onion;
-import factory.veggies.RedPepper;
+import factory.sauce.MarinaraSauce;
 import factory.sauce.Sauce;
-import factory.veggies.Garlic;
-import factory.veggies.Veggies;
+import factory.veggies.*;
 
 /**
  * @author 谢迪
@@ -52,7 +48,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     }
 
     @Override
-    public Clams createClams() {
+    public Clams createClam() {
         return new FreshClams();
     }
 }

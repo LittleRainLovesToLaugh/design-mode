@@ -43,7 +43,7 @@ public abstract class Pizza {
     /**
      * 蛤蛎
      */
-    Clams clams;
+    Clams clam;
 
     abstract void prepare();
 
@@ -78,7 +78,7 @@ public abstract class Pizza {
                 ", veggies=" + Arrays.toString(veggies) +
                 ", cheese=" + cheese +
                 ", pepperoni=" + pepperoni +
-                ", clams=" + clams +
+                ", clam=" + clam +
                 '}';
     }
 }
