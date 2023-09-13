@@ -6,5 +6,5 @@ package factory.veggies;
  * Description 黑橄榄
  * @Version: v1.0
  */
-public class BlackOlives extends Veggies {
+public class BlackOlives implements Veggies {
 }

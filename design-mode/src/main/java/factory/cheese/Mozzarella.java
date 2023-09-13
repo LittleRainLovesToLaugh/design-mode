@@ -6,5 +6,5 @@ package factory.cheese;
  * Description 马苏里拉奶酪
  * @Version: v1.0
  */
-public class Mozzarella extends Cheese{
+public class Mozzarella implements Cheese {
 }

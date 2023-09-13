@@ -6,5 +6,5 @@ package factory.pepperoni;
  * Description 切片式的意式香肠
  * @Version: v1.0
  */
-public class SlicedPepperoni extends Pepperoni {
+public class SlicedPepperoni implements Pepperoni {
 }

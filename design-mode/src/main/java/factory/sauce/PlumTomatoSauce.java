@@ -6,5 +6,5 @@ package factory.sauce;
  * Description
  * @Version: v1.0
  */
-public class PlumTomatoSauce extends Sauce{
+public class PlumTomatoSauce implements Sauce {
 }

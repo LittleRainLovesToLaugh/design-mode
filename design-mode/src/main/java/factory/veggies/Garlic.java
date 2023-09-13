@@ -6,5 +6,5 @@ package factory.veggies;
  * Description 大蒜
  * @Version: v1.0
  */
-public class Garlic extends Veggies {
+public class Garlic implements Veggies {
 }

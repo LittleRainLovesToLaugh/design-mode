@@ -6,7 +6,7 @@ package factory.dough;
  * Description 纽约版本的面团
  * @Version: v1.0
  */
-public class ThinCrusDough extends Dough {
+public class ThinCrusDough implements Dough {
 
 
 }

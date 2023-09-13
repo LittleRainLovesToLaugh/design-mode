@@ -6,5 +6,5 @@ package factory.clams;
  * Description 冷冻蛤蛎
  * @Version: v1.0
  */
-public class FrozenClams extends Clams{
+public class FrozenClams implements Clams {
 }

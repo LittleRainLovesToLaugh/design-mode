@@ -5,7 +5,7 @@ import factory.pizza.*;
 /**
  * @author 谢迪
  * Date 2023年09月12日 15:30:00
- * Description
+ * Description 使用工厂模式进行对象的创建
  * @Version: v1.0
  */
 public class NYPizzaStore extends PizzaStore {
@@ -32,8 +32,4 @@ public class NYPizzaStore extends PizzaStore {
         return pizza;
     }
 
-    @Override
-    protected void orderPizza() {
-
-    }
 }

@@ -6,5 +6,5 @@ package factory.cheese;
  * Description 纽约版本的奶酪
  * @Version: v1.0
  */
-public class ReggianoCheese extends Cheese {
+public class ReggianoCheese implements Cheese {
 }

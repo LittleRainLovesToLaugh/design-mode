@@ -6,5 +6,5 @@ package factory.veggies;
  * Description 茄子
  * @Version: v1.0
  */
-public class EggPlant extends Veggies{
+public class EggPlant implements Veggies {
 }

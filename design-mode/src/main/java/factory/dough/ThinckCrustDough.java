@@ -6,5 +6,5 @@ package factory.dough;
  * Description 厚皮面团
  * @Version: v1.0
  */
-public class ThinckCrustDough extends Dough{
+public class ThinckCrustDough implements Dough {
 }

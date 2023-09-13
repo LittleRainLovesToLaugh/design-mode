@@ -6,5 +6,5 @@ package factory.veggies;
  * Description 菠菜
  * @Version: v1.0
  */
-public class Spinach extends Veggies {
+public class Spinach implements Veggies {
 }
