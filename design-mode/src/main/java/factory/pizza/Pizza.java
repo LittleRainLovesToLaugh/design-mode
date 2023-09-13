@@ -48,15 +48,15 @@ public abstract class Pizza {
     abstract void prepare();
 
 
-    void back(){
+    public void back() {
         System.out.println("在350度的温度下烤25分钟 Bake for 25 minutes at 350");
     }
 
-    void cut(){
+    public void cut() {
         System.out.println("把披萨切成对角的小片 Cutting the pizza into diagonal slices");
     }
 
-    void box(){
+    public void box() {
         System.out.println("将披萨放入官方的PizzaStore盒子中 Place pizza in official PizzaStore box");
     }
 

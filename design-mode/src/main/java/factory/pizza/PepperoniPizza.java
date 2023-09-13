@@ -1,5 +1,7 @@
 package factory.pizza;
 
+import factory.pizza.factory.PizzaIngredientFactory;
+
 /**
  * @author 谢迪
  * Date 2023年09月12日 15:56:00
