@@ -1,8 +1,7 @@
-package strategy.pattern.duck;
+package strategy.duck;
 
-import strategy.pattern.duck.Duck;
-import strategy.pattern.fly.FlyWithWings;
-import strategy.pattern.quack.Quack;
+import strategy.fly.FlyWithWings;
+import strategy.quack.Quack;
 
 /**
  * @author 小雨

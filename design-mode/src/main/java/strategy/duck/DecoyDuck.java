@@ -1,6 +1,4 @@
-package strategy.pattern.duck;
-
-import strategy.pattern.duck.Duck;
+package strategy.duck;
 
 /**
  * @author 小雨

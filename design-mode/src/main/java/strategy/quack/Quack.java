@@ -1,4 +1,4 @@
-package strategy.pattern.quack;
+package strategy.quack;
 
 /**
  * @author 小雨

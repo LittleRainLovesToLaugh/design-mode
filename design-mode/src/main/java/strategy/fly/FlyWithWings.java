@@ -1,4 +1,4 @@
-package strategy.pattern.fly;
+package strategy.fly;
 
 /**
  * @author 小雨

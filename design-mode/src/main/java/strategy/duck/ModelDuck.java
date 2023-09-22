@@ -1,12 +1,12 @@
-package strategy.pattern.duck;
+package strategy.duck;
 
-import strategy.pattern.fly.FlyNoWay;
-import strategy.pattern.quack.Quack;
+import strategy.fly.FlyNoWay;
+import strategy.quack.Quack;
 
 /**
  * @author 小雨
  * Date 2023年08月26日 16:53:00
- * Description
+ * Description 策略模式
  * @Version: v1.0
  */
 public class ModelDuck extends Duck{

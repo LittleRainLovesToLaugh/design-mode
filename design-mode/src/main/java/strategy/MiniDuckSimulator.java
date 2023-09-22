@@ -1,14 +1,13 @@
-package strategy.pattern;
+package strategy;
 
-import strategy.pattern.duck.Duck;
-import strategy.pattern.duck.MallardDuck;
-import strategy.pattern.duck.ModelDuck;
-import strategy.pattern.fly.FlyRocketPowered;
+import strategy.duck.Duck;
+import strategy.duck.ModelDuck;
+import strategy.fly.FlyRocketPowered;
 
 /**
  * @author 小雨
  * Date 2023年08月26日 16:36:00
- * Description
+ * Description 策略模式
  * @Version: v1.0
  */
 public class MiniDuckSimulator {

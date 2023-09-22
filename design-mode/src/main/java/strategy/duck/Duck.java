@@ -1,18 +1,24 @@
-package strategy.pattern.duck;
+package strategy.duck;
 
-import strategy.pattern.fly.FlyBehavior;
-import strategy.pattern.quack.QuackBehavior;
+import strategy.fly.FlyBehavior;
+import strategy.quack.QuackBehavior;
 
 /**
  * @author 小雨
  * Date 2023年08月26日 14:07:00
- * Description 鸭子超类
+ * Description 鸭子超类（策略模式超类）
  * @Version: v1.0
  */
 public abstract class Duck {
 
+    /**
+     * 依赖抽象，而不依赖具体
+     */
     FlyBehavior flyBehavior;
 
+    /**
+     * 依赖抽象，而不依赖具体
+     */
     QuackBehavior quackBehavior;
 
     public Duck() {
