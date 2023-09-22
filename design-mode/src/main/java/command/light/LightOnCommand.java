@@ -1,11 +1,11 @@
-package command;
+package command.light;
 
-import command.light.Light;
+import command.Command;
 
 /**
  * @author 谢迪
  * Date 2023年09月18日 11:21:00
- * Description 这是一个命令，所以需要实现Command接口。
+ * Description 这是一个命令，所以需要实现Command接口。(灯亮命令)
  * @Version: v1.0
  */
 public class LightOnCommand implements Command {

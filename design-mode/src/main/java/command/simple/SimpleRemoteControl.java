@@ -1,4 +1,6 @@
-package command;
+package command.simple;
+
+import command.Command;
 
 /**
  * @author 谢迪
