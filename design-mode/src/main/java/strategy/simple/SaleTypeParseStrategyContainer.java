@@ -39,6 +39,7 @@ public class SaleTypeParseStrategyContainer {
     public Integer parseChain(SaleTypeParseContext saleTypeParseContext) {
         return parseStrategyList.stream()
                 .filter(strategy -> strategy.support(saleTypeParseContext))
+                // findAny ：返回流中任意一个元素
                 .findAny()
                 .map(strategy -> strategy.parse(saleTypeParseContext))
                 .orElse(null);
