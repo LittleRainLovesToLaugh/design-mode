@@ -1,13 +1,15 @@
-package decorator;
+package decorator.garnisher;
+
+import decorator.abstracts.component.Beverage;
 
 /**
  * @Classname Whip
- * @Description (装饰器模式：调料具体装饰者)
+ * @Description (装饰器模式 ： 调料具体装饰者)
  * @Version1.0.0
  * @Date 2023/9/1 23:31
  * @author小雨 27662
  */
-public class Whip extends CondimentDecorator{
+public class Whip extends CondimentDecorator {
 
 
     /**

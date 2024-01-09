@@ -1,4 +1,4 @@
-package decorator;
+package decorator.abstracts.component;
 
 /**
  * @author 小雨

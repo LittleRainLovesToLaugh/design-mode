@@ -1,13 +1,15 @@
-package decorator;
+package decorator.garnisher;
+
+import decorator.abstracts.component.Beverage;
 
 /**
  * @ClassnameSoy
- * @Description   (装饰器模式：调料具体装饰者)
+ * @Description (装饰器模式 ： 调料具体装饰者)
  * @Version1.0.0
  * @Date2023/9/1 23:29
  * @author小雨 27662
  */
-public class Soy extends CondimentDecorator{
+public class Soy extends CondimentDecorator {
 
     /**
      * 用一个实例变量记录饮料，也就是被装饰者

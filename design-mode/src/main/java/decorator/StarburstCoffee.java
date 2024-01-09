@@ -1,5 +1,12 @@
 package decorator;
 
+import decorator.abstracts.component.Beverage;
+import decorator.abstracts.component.DarkRoast;
+import decorator.abstracts.component.HouseBlend;
+import decorator.garnisher.Mocha;
+import decorator.garnisher.Soy;
+import decorator.garnisher.Whip;
+
 /**
  * @author 谢迪
  * Date 2023年09月06日 17:13:00

@@ -1,4 +1,6 @@
-package decorator;
+package decorator.garnisher;
+
+import decorator.abstracts.component.Beverage;
 
 /**
  * @author 小雨
@@ -6,7 +8,7 @@ package decorator;
  * Description (装饰器模式：抽象装饰者)
  * @Version: v1.0
  */
-public abstract class CondimentDecorator extends Beverage{
+public abstract class CondimentDecorator extends Beverage {
 
     /**
      * 所有的调料装饰者都必须重新实现 getDescription()方法

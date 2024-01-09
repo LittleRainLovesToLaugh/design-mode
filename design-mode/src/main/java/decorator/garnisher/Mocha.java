@@ -1,4 +1,7 @@
-package decorator;
+package decorator.garnisher;
+
+import decorator.abstracts.component.Beverage;
+
 /**
  * @author 小雨
  * Date 2023年09月01日 13:58:00
@@ -6,7 +9,7 @@ package decorator;
  * 摩卡：是一个装饰者，所以让它扩展自CondimentDecorator。
  * &#064;Version:  v1.0
  */
-public class Mocha extends CondimentDecorator{
+public class Mocha extends CondimentDecorator {
 
     /**
      * 用一个实例变量记录饮料，也就是被装饰者
